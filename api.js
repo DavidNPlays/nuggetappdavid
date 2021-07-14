@@ -15,9 +15,7 @@ export const updateUserNugget = (id, payload) => user.put(`/userNuggets/${id}`, 
 export const deleteUserNugget = (id, payload) => user.post(`/deleteUserNugget/${id}`, payload)
 export const checkReminders = (id, payload) => user.get(`/checkReminders/${id}`, payload)
 
-
 const apis = {
-    
     register,
     login,
     logout,
